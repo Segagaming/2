@@ -1,0 +1,191 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/customguis/background12.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = setbuttonlabel
+  value = Mojang
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 703112e6-f7e9-495f-8804-b4c02ae172a41656614605624
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a042dd8c-4cb7-4f8f-89dc-b2bb418dd4801656614605626
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 45a1c215-8bef-459c-bbb2-90eeb49c4adb1656614605626
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2ccf0bc5-c521-4834-a80e-e0400fe878c21656614605626
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 18a9551a-4e53-4e77-8b33-cb78a25baa601656614605626
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 2496389c-adf9-410d-9cb6-5773f61b56281656614605626
+  y = 0
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/customguis/minecraft_fresh_newdesign.png
+  orientation = top-centered
+  x = -114
+  width = 224
+  action = addtexture
+  actionid = d2927a84-7269-4491-b8f7-1d570432ebf91683882484312
+  y = 26
+  height = 100
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  scale = 0.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 43
+  actionid = db6220b2-0860-4e12-90fc-14a85f9a64231639033631063
+  action = addsplash
+  y = 90
+  text = by Grape
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = 9989498a-02d7-40e5-88e9-8df7929967ad1655330629040
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = ModPack v1.10.1
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -40
+  action = addtext
+  actionid = bce48c9b-1182-41dc-9d35-bebae1e2b8181655330696339
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Mojang
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\customguis\warden2.png
+  backgroundnormal = config\fancymenu\customguis\warden.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\customguis\planet2.png
+  backgroundnormal = config\fancymenu\customguis\planet.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = setbuttonlabel
+  value = Реалмс
+}
+

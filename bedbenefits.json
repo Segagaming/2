@@ -1,0 +1,12 @@
+{
+  "restoreHealth": {
+    "healAmount": 3.5,
+    "requiredFoodAmount": 0
+  },
+  "sleepOffEffects": {
+    "removeHarmfulEffects": true,
+    "removeBeneficialEffects": false,
+    "removeNeutralEffects": false,
+    "requiredFoodAmount": 1
+  }
+}

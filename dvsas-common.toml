@@ -1,0 +1,8 @@
+
+#Common settings
+[common]
+	#Show tooltip when a block can be placed vertically
+	tooltip = true
+	#Blacklist for blocks to not have generated vertical variants
+	blacklist = []
+

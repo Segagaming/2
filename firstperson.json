@@ -1,0 +1,10 @@
+{
+  "enabledByDefault": false,
+  "xOffset": 4,
+  "sneakXOffset": 4,
+  "sitXOffset": 0,
+  "renderStuckFeatures": false,
+  "vanillaHands": false,
+  "doubleHands": false,
+  "forceActive": false
+}
